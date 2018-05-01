@@ -1,5 +1,6 @@
 .DS_Store
 *.avm
+*.debug.json
 *.pyc
 dist/
 fixtures/

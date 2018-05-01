@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cryptopians/nos-sso-dapp.git"
+    "url": "git+https://github.com/Cryptopians/nos-bookmark-dapp.git"
   },
   "keywords": [
     "nOS",
@@ -21,10 +21,11 @@
   "author": "R. Moorman <rob@moori.nl>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Cryptopians/nos-sso-dapp/issues"
+    "url": "https://github.com/Cryptopians/nos-bookmark-dapp/issues"
   },
-  "homepage": "https://github.com/Cryptopians/nos-sso-dapp#readme",
+  "homepage": "https://github.com/Cryptopians/nos-bookmark-dapp#readme",
   "dependencies": {
+    "@nosplatform/api-functions": "0.1.3",
     "prop-types": "15.6.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
@@ -36,7 +37,7 @@
   "devDependencies": {
     "babel-core": "6.26.3",
     "babel-loader": "7.1.4",
-    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-transform-runtime": "6.23.0",
     "babel-preset-env": "1.6.1",
     "babel-preset-react": "6.24.1",
     "html-webpack-plugin": "3.2.0",
