@@ -12,6 +12,10 @@
 
 nOS Single Sign-On dApp project with Smart Contracts.
 
+<p align="center">
+  <img src="./docs/images/screenshot.png" width="320px" height="auto" /> 
+</p>
+
 ## Getting started
 
 To get started, please follow the [nos-local](https://github.com/nos/nos-local)
