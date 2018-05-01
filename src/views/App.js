@@ -1,9 +1,8 @@
 import React from 'react'
 
 import Balance from '../containers/Balance'
+import Bookmarks from '../containers/Bookmarks'
 import { injectNOS } from '../nos'
-
-const SC_SCRIPT_HASH = '0xe973b31b5d8cf928916f2a30a4611b2bed31af7e'
 
 class App extends React.PureComponent {
   constructor () {
@@ -33,6 +32,7 @@ class App extends React.PureComponent {
           <p>Your address: {this.state.address}</p>
         )}
         <Balance />
+        <Bookmarks />
       </div>
     )
   }

@@ -40,7 +40,7 @@ yarn run build
 ```
 
 For development we use the `yarn start` command which enables the development
-server located at `http://localhost:8000`.
+server located at `http://localhost:8080`.
 
 ## Setup
 
@@ -60,7 +60,7 @@ import contract /smart-contracts/nos_bookmark.avm 0710 05 True False
 Now let's register our dApp:
 
 ```
-testinvoke e60a3fa8149a853eb4dff4f6ed93c931646a9e22 RegisterDomain ['AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y', 'bookmark.nos', 'AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y', 'http://localhost:8000']
+testinvoke e60a3fa8149a853eb4dff4f6ed93c931646a9e22 RegisterDomain ['AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y', 'bookmark.nos', 'AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y', 'http://localhost:8080']
 ```
 
 You are now ready to view your dApp in the nOS client via `nos://bookmark.nos`.

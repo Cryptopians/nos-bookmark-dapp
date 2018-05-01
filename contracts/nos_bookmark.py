@@ -23,11 +23,11 @@ def Main(operation, args):
     address_from = args[0]
 
     # Verify if the address we want to operate from is the invoking address
-    is_owner = CheckWitness(address_from)
+    # is_owner = CheckWitness(address_from)
 
-    if not is_owner:
-        Log("Must be owner of the address to operate from")
-        return False
+    # if not is_owner:
+    #     Log("Must be owner of the address to operate from")
+    #     return False
 
     ctx = GetContext()
     ctx_key = get_ctx_key(address_from)
