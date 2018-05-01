@@ -1,2 +1,4 @@
 .DS_Store
 *.avm
+dist/
+node_modules/
