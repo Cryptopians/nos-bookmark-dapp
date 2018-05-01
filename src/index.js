@@ -1,8 +1,14 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+import App from './views/App'
 
 const Index = () => {
-  return <div>nOS SSO dApp</div>
+  return (
+    <div>
+      <App />
+    </div>
+  )
 }
 
 ReactDOM.render(<Index />, document.getElementById("nos-dapp"))

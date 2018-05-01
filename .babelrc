@@ -1,6 +1,24 @@
 {
 	"presets": [
-		"env",
+		[
+			"env",
+			{
+				"targets": {
+					"browsers": [
+						"last 2 versions",
+						"> 1%"
+					]
+				}
+			}
+		],
 		"react"
+	],
+	"plugins": [
+		[
+			"transform-runtime",
+			{
+				"regenerator": true
+			}
+		]
 	]
 }
