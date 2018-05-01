@@ -23,7 +23,7 @@ class App extends React.PureComponent {
   render () {
     return (
       <div>
-        <h1>nOS SSO dApp</h1>
+        <h1>nOS Bookmark dApp</h1>
         {!this.props.nos.exists && (
           <p>Please view this dApp within your nOS client</p>
         )}

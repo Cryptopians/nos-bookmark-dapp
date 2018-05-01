@@ -12,5 +12,4 @@ def Main(operation, args):
     :param args: list A list of arguments along with the operation
     :return: bytearray: The result of the operation
     """
-    Log("Done")
-    return True
+    return False

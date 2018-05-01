@@ -1,4 +1,6 @@
 .DS_Store
 *.avm
+*.pyc
 dist/
+fixtures/
 node_modules/
