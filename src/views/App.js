@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Balance from '../containers/Balance'
 import { injectNOS } from '../nos'
 
 class App extends React.PureComponent {
@@ -29,6 +30,7 @@ class App extends React.PureComponent {
         {this.state.address && (
           <p>Your address: {this.state.address}</p>
         )}
+        <Balance />
       </div>
     )
   }
