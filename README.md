@@ -2,7 +2,7 @@
   <img src="./docs/images/logo.png" width="150px" height="auto" /> 
 </p>
 
-<h1 align="center">nos-sso-dapp</h1>
+<h1 align="center">@cryptopians/nos-sso-dapp</h1>
 
 <p align="center">
   This is a Single-Sign On <strong>dApp</strong> on the <strong>nOS</strong> platform
@@ -63,4 +63,4 @@ Now let's register our dApp:
 testinvoke e60a3fa8149a853eb4dff4f6ed93c931646a9e22 RegisterDomain ['AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y', 'sso.nos', 'AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y', 'http://localhost:8000']
 ```
 
-You are now ready to view your dApp in the nOS client.
+You are now ready to view your dApp in the nOS client via `nos://sso.nos`.

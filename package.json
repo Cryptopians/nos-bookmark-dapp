@@ -1,5 +1,5 @@
 {
-  "name": "nos-sso-dapp",
+  "name": "@cryptopians/nos-sso-dapp",
   "version": "0.1.0",
   "description": "nOS Single Sign-On dApp.",
   "main": "index.js",
