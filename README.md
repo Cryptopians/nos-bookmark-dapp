@@ -5,12 +5,12 @@
 <h1 align="center">@cryptopians/nos-sso-dapp</h1>
 
 <p align="center">
-  This is a Single-Sign On <strong>dApp</strong> on the <strong>nOS</strong> platform
+  This is a Bookmark <strong>dApp</strong> on the <strong>nOS</strong> platform
 </p>
 
-# nOS Single Sign-On dApp
+# nOS Bookmark dApp
 
-nOS Single Sign-On dApp project with Smart Contracts.
+nOS Bookmark dApp project with Smart Contracts.
 
 <p align="center">
   <img src="./docs/images/screenshot.png" width="320px" height="auto" /> 

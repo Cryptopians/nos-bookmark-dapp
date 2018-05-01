@@ -6,7 +6,7 @@ from boa.interop.System.ExecutionEngine import GetCallingScriptHash
 
 
 def Main(operation, args):
-    """Main definition of the nOS Single-Sign On dApp Smart Contract.
+    """Main definition of the nOS Bookmark dApp Smart Contract.
 
     :param operation: str The name of the operation to perform
     :param args: list A list of arguments along with the operation
