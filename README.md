@@ -64,3 +64,5 @@ testinvoke e60a3fa8149a853eb4dff4f6ed93c931646a9e22 RegisterDomain ['AK2nJJpJr6o
 ```
 
 You are now ready to view your dApp in the nOS client via `nos://bookmark.nos`.
+
+The WIF private key to login with is `KxDgvEKzgSBPPfuVfw67oPQBSjidEiqTHURKSDL1R7yGaGYAeYnr`.
